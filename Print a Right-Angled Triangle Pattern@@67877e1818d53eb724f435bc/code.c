@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int n;
+    int N;
 
-    scanf("%d", &n);
+    scanf("%d", &N);
 
     for (int i = 1; i <= n; i++) { // Outer loop: controls rows (from n down to 1)
         for (int j = 1; j <= i; j++) { // Inner loop: controls stars in each row
